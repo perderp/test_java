@@ -7,6 +7,9 @@ public class Rectangle {
     }
 
     public static void main(String[] args){
+        Main obj = new Main();
         System.out.println(getArea(5, 5));
+        // Accessing Main Class
+        System.out.println(obj.factorial(5));
     }
 }
